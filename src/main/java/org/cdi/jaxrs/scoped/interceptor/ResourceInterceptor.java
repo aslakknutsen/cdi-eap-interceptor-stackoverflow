@@ -9,7 +9,7 @@ import javax.interceptor.InvocationContext;
 
 @REST
 @Interceptor
-//@RequestScoped // <-- Any scope besides @Dependent cause StackOverflow
+@RequestScoped // <-- Any scope besides @Dependent cause StackOverflow
 public class ResourceInterceptor implements Serializable {
 
     private static final long serialVersionUID = 1L;

@@ -1,1 +1,1 @@
-Any non @Dependent scoped Scope cause stackoverflow in interceptor stack. CDI, EAP 6.1.0.GA, JAX-RS 
+Any non @Dependent scoped Scope cause stackoverflow in interceptor stack. CDI, EAP 6.1.0.GA
